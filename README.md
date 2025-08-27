@@ -1,21 +1,32 @@
-  # ⏱️ React Time Tools
+ # ⏱️ React Time Tools  
 
-  A React app featuring a **Digital Clock, Stopwatch, and Countdown Timer** — built using React hooks (`useState`, `useEffect`, `useRef`).  
-  This project is designed as a learning exercise and a handy demo of time-based utilities in React.
+A simple and interactive **React app** featuring a **Digital Clock, Stopwatch, and Countdown Timer** — built with React hooks (`useState`, `useEffect`, `useRef`).  
+Designed as a learning project and a handy demo of time-based utilities in React.  
 
-  ---
+---
 
-  ## 📌 Repo Description
-  A React app featuring a Digital Clock, Stopwatch, and Countdown Timer — built with React hooks (useState, useEffect, useRef) for learning and practice.
+## 📌 Description  
+React Time Tools provides three essential time utilities with a clean digital UI:  
+- **Digital Clock** – always-on clock with AM/PM  
+- **Stopwatch** – millisecond precision, start/stop/reset  
+- **Countdown Timer** – custom time input and live countdown  
 
-  ---
+---
 
-  ## 🚀 Features
-  - 🕒 **Digital Clock** – real-time clock with AM/PM format  
-  - ⏱️ **Stopwatch** – start, stop, reset with millisecond precision  
-  - 🎨 Clean digital-style UI  
+## 🛠️ Tech Stack
+- ⚛️ React (Vite)  
+- 🎨 CSS (custom styles)  
+- 🔧 React Hooks (`useState`, `useEffect`, `useRef`)  
 
-  ---
+---
+
+## 🚀 Features
+- 🕒 **Digital Clock** – real-time with AM/PM  
+- ⏱️ **Stopwatch** – start, stop, reset with ms precision  
+- ⏳ **Countdown Timer** – editable input & countdown  
+- 🎨 **Minimal UI** – clean and easy to use 
+
+---
 
   ## 📂 Project Structure
 src/
@@ -53,7 +64,7 @@ src/
 ---
 
 ## 🎨 Screenshots
-
+![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
@@ -62,7 +73,8 @@ src/
 ## 💡 Future Improvements
 - ⏰ Add Alarm feature  
 - 📋 Add Lap functionality for Stopwatch  
-- 🎵 Add sound notification when Timer ends  
+- 🎵 Add sound notification when Timer ends 
+- 🌙 Dark mode support 
 
 ---
 

@@ -18,7 +18,7 @@ h2{
 
 .main-container{
   display: flex;
-  height: 70vh;
+  /* height: 70vh; */
   align-items: center;
   justify-content: center;
 }
@@ -46,6 +46,31 @@ border-radius: 15px;
 color: rgba(14, 180, 231, 0.792);
 background-color: rgba(0, 0, 0, 0.811);
 
+}
+
+
+
+.timer-div{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  height: 100hv;
+  justify-content: center;
+}
+
+.timer-div input{
+  color: rgba(14, 180, 231, 0.792);
+  background-color: rgba(0, 255, 255, 0);  
+  font-size: 2em;
+  text-align: center;  
+  border-style: none;
+  padding: 5px;
+  outline: none;
+  font-size: 7rem;
+  font-weight: bold;
+  font-family: monospace;
+  margin-bottom: 25px;
 }
 
 .navbar {

@@ -31,9 +31,7 @@ export default function Time() {
         return (number < 10 ? "0" : "") + number;
     }
 
-    
-
-    
+        
     return (
         <>
         <div className="main-container">

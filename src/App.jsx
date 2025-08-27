@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Time from "./Time";
 import StopWatch from "./StopWatch";
+import Timer from "./Timer"
 
 function App() {
   const [activeTab, setActiveTab] = useState("clock"); // default show clock
@@ -21,12 +22,19 @@ function App() {
         >
           Stopwatch
         </button>
+        <button
+          className={activeTab === "timer" ? "active" : ""}
+          onClick={() => setActiveTab("timer")}
+        >
+          Timer
+        </button>
       </nav>
 
       {/* Conditional Rendering */}
       <div className="content">
         {activeTab === "clock" && <Time />}
         {activeTab === "stopwatch" && <StopWatch />}
+        {activeTab ==="timer" && <Timer />}
       </div>
     </>
   );
