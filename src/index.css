@@ -1,0 +1,81 @@
+
+body{
+  background-image: url("assets/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgba(14, 180, 231, 0.792); 
+  min-height: 100vh;
+  margin: 0%;
+}
+
+h2{
+  font-size: 7rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.main-container{
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch-div{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap :10px;
+}
+
+
+
+button{
+ width: 150px;
+ height: 50px;
+ font-size: 2rem;
+border-radius: 15px;
+color: rgba(14, 180, 231, 0.792);
+background-color: rgba(0, 0, 0, 0.811);
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  /* semi-transparent navbar */
+  position: sticky;
+  top: 0;
+}
+
+.navbar button {
+  background: transparent;
+  border: 2px solid rgb(14, 180, 231);
+  color: rgb(14, 180, 231);
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background: rgb(14, 180, 231);
+  color: black;
+}
+
+.navbar .active {
+  background: rgb(14, 180, 231);
+  color: black;
+}
